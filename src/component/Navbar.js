@@ -15,7 +15,7 @@ const Navbar = () => {
             </div>
             <div className={"nav-section"}>
                 <img width={100}
-                     src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSedfDVsziektqKloi6Btgik9aT6upswW0mfw&s"}/>
+                     src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSedfDVsziektqKloi6Btgik9aT6upswW0mfw&s"} alt={""}/>
             </div>
             <div className={"menu-area"}>
                 <ul className={"menu-list"}>
