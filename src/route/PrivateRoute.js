@@ -4,7 +4,7 @@ import {Navigate} from "react-router-dom";
 
 const PrivateRoute = ({authenticate}) => {
     return (
-        authenticate===true?<ProductDetail/>:<Navigate to={'/login'}/>
+        authenticate===true?<ProductDetail/>:<Navigate to={'/login'}/>ㅇ
     );
 };
 
