@@ -1,13 +1,24 @@
 .login-button{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     margin-top: 50px;
     margin-right: 20px;
 }
 
+.login-button div{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
 .nav-section{
     display: flex;
     justify-content: center;
+}
+
+.nav-section img{
+    cursor: pointer;
 }
 
 .menu-list{
@@ -22,6 +33,7 @@
 .menu-area{
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -31,7 +43,7 @@
     align-items: center;
     margin-right: 20px;
     position: absolute;
-    top: 18px;
+    top: 5px;
     right: 1vh;
     height: 30px;
     border-bottom: 1px black solid;
@@ -40,4 +52,30 @@
 .search-area input{
     margin-left: 5px;
     border: none;
+}
+
+.card img{
+    width: 300px;
+}
+
+.card {
+    padding: 10px;
+    border: none !important;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.detail-product img{
+    width: 400px;
+}
+
+.btn-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn-container button{
+    flex: 1;
 }
