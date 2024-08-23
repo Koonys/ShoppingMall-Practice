@@ -56,7 +56,7 @@ const Navbar = ({authenticate, navAuthenticate}) => {
                 </div>
 
                 <div className={'side-btn mt-2'}>
-                    {sideCheck ?
+                    {!sideCheck ?
                         <div className={`side-menu`}>
                             <ul className={'side-list'}>
                                 {menuList.map(menu => <li>{menu}</li>)}
@@ -69,7 +69,7 @@ const Navbar = ({authenticate, navAuthenticate}) => {
                             </ul>
                         </div>
                     }
-                    {!sideCheck ?
+                    {sideCheck ?
                         <div className={'toggle close'}>
                             <FontAwesomeIcon icon={faX} onClick={check}/>
                         </div>
