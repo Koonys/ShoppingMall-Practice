@@ -30,10 +30,10 @@ const ProductDetail = () => {
     return (
             <Container>
                 <Row className={'detail-product justify-content-center'}>
-                    <Col md={4}>
+                    <Col lg={6} sm={12} className={'d-flex justify-content-center'}>
                         <img src={product?.img} alt={""}/>
                     </Col>
-                    <Col md={6} className={'d-flex flex-column'}>
+                    <Col lg={6} sm={12} className={'d-flex flex-column'}>
                         <div className={'mb-3'}>
                             <h5>{product?.choice === true ? "추천상품" : ""}</h5>
                             <h2>{product?.title}</h2>
